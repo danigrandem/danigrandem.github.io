@@ -1,0 +1,24 @@
+
+<html>
+  <body>
+    <script type="speculationrules">
+      {
+        "prerender": [
+          {
+            "where": {
+              "and": [
+                { "href_matches": "/*" },
+                { "not": { "selector_matches": ".do-not-prerender" } },
+                { "not": { "selector_matches": "[rel=nofollow]" } }
+              ]
+            }
+          }
+        ]
+      }
+    </script>
+    asdasd asds ads
+    <h1>sdfdsfd</h1>
+
+    <a href="/index.html">index</a>
+  </body>
+</html>
